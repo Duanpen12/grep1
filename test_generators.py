@@ -48,5 +48,19 @@ for char in rev_str("hello"):
 def add(a, d):
     """
     index a * d   """
-    return a *
+    return a * d
 print(add.__doc__)
+
+
+# Tuple
+tups = ("Duanpen", "Ning", 12, 10, 1992)
+tuples = (1, 2, 3, 4, 5)
+mixs = tups + tuples
+print(mixs)
+print(tups[1], tups[-1])
+print(tups[1:3])
+print(tups[-3:-2])
+for index in range(len(tups)):
+    print("print tuple", index + 1, tups[index])
+    if "Duanpen" in tups:
+        print("Trakulram")
