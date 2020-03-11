@@ -64,3 +64,22 @@ for index in range(len(tups)):
     print("print tuple", index + 1, tups[index])
     if "Duanpen" in tups:
         print("Trakulram")
+
+
+def rev_str(my_str):
+    length = len(my_str)
+    print(length)
+    for i in range(length - 1,-1,-1):
+        yield my_str[i]
+
+# For loop to reverse the string
+# Output:
+# o
+# l
+# l
+# e
+# h
+for char in rev_str("hello"):
+     print(char)
+
+
