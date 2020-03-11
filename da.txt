@@ -1,0 +1,1 @@
+nm-openvpn:x:123:129:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin

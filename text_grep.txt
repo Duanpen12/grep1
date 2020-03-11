@@ -1,0 +1,14 @@
+A file called * text_grep.txt *.
+Strange text file?
+Nothing unusual! A few sentences (?) To test the grep filter.
+:-)
+
+After the empty line we have a poem without a dot (yes, yes)
+We now give 4 characters {+, *, 0, ^} in curly brackets.
+
+There is no dot again, but we have the numbers: 3, 6, 8, 9
+What_else? ***
+
+Maybe the email address: my@inbox.net.pl
+What next?
+{End!!!}
