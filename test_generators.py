@@ -83,3 +83,21 @@ for char in rev_str("hello"):
      print(char)
 
 
+def my_yield():
+    x = 5
+    print("This is Ex. yield")
+    yield x
+
+
+for index in my_yield():
+    print(index)
+
+
+def new_yield():
+    for index in range(-2, 10, 2):
+        yield index
+
+for i in new_yield():
+    print(i)
+
+
