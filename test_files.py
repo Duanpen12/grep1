@@ -29,3 +29,11 @@ files_to_write.writelines(print_list_from_file_people)
 files_to_write.close()
 print(print_list_from_file_people)
 
+
+def add(a, b):
+    """ 1234567890 """
+    return a + b
+
+
+print(add.__doc__)
+
