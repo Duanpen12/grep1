@@ -1,3 +1,6 @@
+import unittest
+
+
 def list_from_file(file):
     open_text = open(file, 'r')
     content = open_text.readlines()
@@ -34,6 +37,30 @@ def add(a, b):
     """ 1234567890 """
     return a + b
 
-
+add(10, 30)
+print(add(10, 30))
 print(add.__doc__)
+
+
+def test_yield(a, b):
+    print("1234567890")
+    yield a * b
+
+
+for index in test_yield(10, 120):
+    print(index)
+
+
+def power(a, b):
+    return a * b
+
+print(power(10, 30))
+
+class TestPower(unittest.TestCase):
+    def power_output(self):
+        self.assertEqual(power(10, 30), 300)
+
+
+if __name__ == '__main__':
+    unittest.main()
 
